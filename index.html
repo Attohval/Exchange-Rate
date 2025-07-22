@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exchange Rate Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h3 class="pageTitle">VTECH-SOLUTIONS</h3>
+  <div class="container">
+    <div class="form">
+      <h1>Rate Converter</h1>
+      <div class="converter">
+        <select id="fromCurrency"></select>
+        <input type="number" id="amount" placeholder="Amount"/>
+        <select id="toCurrency"></select>
+        <button onclick="convert()">Convert</button>
+      </div>
+      <p id="result"></p>
+    </div>
+  </div>
+  <footer class="footer">
+    <h5>&copy VTECH All rights reserved!</h5>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
